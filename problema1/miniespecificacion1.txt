@@ -1,0 +1,17 @@
+1.Inicio
+2.valor_kilovatiohora, d[0-n]
+3.kilovatios_mes, i[0-n]
+3.planilla_de_luz, d[0-n]
+4.edad, i[0-n]
+5.<< "Ingrese el valor del kilovatio/hora"
+6.>> valor_kilovatiohora
+7.<< " Ingrese el numero de kilovatios consumidos en el mes"
+8.>> kilovatios_mes
+9.planilla_de_luz <--(kilovatios_mes * valor_kilovatiohora)
+10.<< "Ingrese su edad"
+11.>> edad
+12.Si edad > 65 entonces
+13.	planilla_de_luz <--[planilla_de_luz - (planilla_de_luz * 0,10)]
+14.Fin si
+15.<< "Su valor a cancelar es " + planilla_de_luz
+15.Fin

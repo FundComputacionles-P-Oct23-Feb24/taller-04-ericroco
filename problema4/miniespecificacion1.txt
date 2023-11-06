@@ -1,0 +1,27 @@
+1.Inicio
+2.numero_de_dias, i[0-n]
+3.precio_habitacion, d[0-n]
+4.subtotal, d[0-n]
+5.descuento, d[-n]
+6.total_pagar, d[0-n]
+7.<< "Ingrese de dias que se va a hospedar"
+8.>> numero_de_dias
+9.<< "Ingrese el precio de la habitación que desea"
+10.>> precio_habitacion
+11.subtotal <--(numero_de_dias * precio_habitacion)
+12.Si numero_de_dias > 15 entonces
+13.	descuento <--(0.20)
+14.	descuento <--(subtotal * descuento)
+15.De lo contrario
+16.	Si numero_de_dias > 10 and numero_de_dias < 15 entonces
+17.		descuento <--(0.15)
+18.		descuento <--(subtotal * descuento)
+19.	De lo contrario 
+20.		Si numero_de_dias > 5 and numero_de_dias <10 entonces
+21.			descuento <--(0.20)
+22.			descuento <--(subtotal * descuento)
+23.		Fin si
+24.	Fin si
+25.Fin Si
+26.total_pagar <--(subtotal - descuento)
+27.<< "Factura" + "subtotal: " + subtotal + " descuento: " + descuento + " total: " + total_pagar

@@ -1,0 +1,27 @@
+1.Inicio
+2.agua, d[0-n]
+3.telefono, d[0-n]
+4.litros_agua, d[0-n]
+5.costo_litros, d[0-n]
+6.minutos_telefono, d[0-n]
+7.costo_minutos, d[0-n]
+8.pago_mensual, d[0-n]
+9.edad, i[0-n]
+10.<< "Ingrese su edad"
+11.>> edad
+12.<< "Ingrese los litros de agua que consumió este mes"
+13.>> litros_agua
+14.<< "Ingrese el costo de cada litro de agua"
+15.>> costo_litros
+16.<< "Ingrese los minutos de telefono que usó este mes"
+17.>> minutos_telefono
+18.<< "Ingrese el costo de los minutos telefonicos"
+19.>> costo_minutos
+20.agua <--(litros_agua * costo_litros)
+21.telefono <--(minutos_telefono * costo_minutos)
+22.pago_mensual <--(agua + telefono)
+23.Si edad < 20 entonces
+24.	pago_mensual <--(pago_mensual - (pago_mensual * 0.20))
+25. Fin si
+26.<< "El valor a cancelar este mes es: " + pago mensual
+27.Fin

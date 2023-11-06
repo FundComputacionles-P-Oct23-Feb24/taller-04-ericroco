@@ -1,0 +1,15 @@
+1.Inicio
+2.producto, x(n)[{a-z}, {BS}, {A-Z}]
+3.descripcion, x(n)[{a-z}, {BS} ,{A-Z}]
+4.cantidad_requerida, i[0-n]
+5.precio_unitario, d[0-n]
+6.costo_pedido, d[0-n]
+7.>> producto <--("Queso")
+8.>> descripcion <--("Producto derivado del la leche sometido a un tratamiento")
+9.>> cantidad_requerida <--(62)
+10.>> precio_unitario <--(2.25)
+11.costo_pedido <--(cantidad_requerida * precio_unitario)
+12.Si cantidad_requerida > 50 entonces
+13.	costo_pedido <--[costo_pedido - (costo_pedido * 0.15)]
+14.Fin si
+15.<< "Factura" + "Producto: " + producto + " descripcion: " + Descripcion + " Cantidad: " + cantidad_requerida + " Precio unitario " + precio_unitario + "------------- Precio total:" + costo_pedido +" -------------"

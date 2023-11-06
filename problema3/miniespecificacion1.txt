@@ -1,0 +1,13 @@
+1.Inicio
+2.temperatura_centigrados, d[0-n]
+3.temperatura_farenheit, d[0-n]
+4.temperatura_kelvin, d[0-n]
+5.<< "Ingrese la temperatura en grados centigrados"
+6.>> temperatura_centigrados
+7.Si temperatura_centigrados > 0 and temperatura_centigrados <= 100 entonces
+8.	temperatura_farenheit <--( 9/5 (temperatura_centigrados ) + 32)
+9.	temperatura_kelvin <--(temperatura_centigrados + 273.15)
+10.Fin si
+11.<< "La temperatura en grados farenheit  es " + temperatura_farenheit + " ◦F"
+12.<< "La temperatura en grados kelvin es " + temperatura_kelvin + " ◦K"
+13.Fin
