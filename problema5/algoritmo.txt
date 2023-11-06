@@ -1,0 +1,12 @@
+1.Inicio
+2.Se pide al usuario que ingrese su edad
+3.Se pide al usuario que ingrese los litros de agua que consumio este mes
+4.Se pide al usuario que ingrese el valor por litro que tiene el agua
+5.Se multuplica la cantidad de litros de agua por el valor que tienen los mismos para saber el valor del agua que se consumio este mes
+6.Se pide al usuario que ingrese los minutos de telefono que usó este mes
+7.Se pide el al usuario el valor que tiene por minuto telefonico
+8.Se multuplica el numero de minutos telefonicos por su valor por minuto para conocer el valor a pagar de telefono este mes
+9.Se suma el valor del agua mas el valor del telefono para conocer el pago en total que debe hacerse este mes
+10.Si la persona es menor de 20 años se aplica un descuento del 20% al pago total
+11.Presentar el valor del pago total
+12.Fin
