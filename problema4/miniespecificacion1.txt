@@ -18,7 +18,7 @@
 18.		descuento <--(subtotal * descuento)
 19.	De lo contrario 
 20.		Si numero_de_dias > 5 and numero_de_dias <10 entonces
-21.			descuento <--(0.20)
+21.			descuento <--(0.10)
 22.			descuento <--(subtotal * descuento)
 23.		Fin si
 24.	Fin si
